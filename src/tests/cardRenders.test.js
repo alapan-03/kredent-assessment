@@ -22,20 +22,17 @@ describe('StockCard Component', () => {
     // Render the component with mock data
     render(<StockCard stock={mockStock} onCardClick={() => {}} />);
 
-    // Assert that the trading symbol is displayed
+    // Following are the assertions
     expect(screen.getByText('RELIANCE')).toBeInTheDocument();
 
-    // Assert that the Capital Market LTP is displayed and correctly formatted
     expect(screen.getByText(/CM LTP:/i)).toHaveTextContent('₹2915.45');
     
-    // Assert that the Futures LTP is displayed and correctly formatted
     expect(screen.getByText(/FUT LTP:/i)).toHaveTextContent('₹2921.10');
 
-    // Assert that the percentage change is displayed with a '+' sign for positive values
     expect(screen.getByText('+0.84%')).toBeInTheDocument();
+
     expect(screen.getByText('+0.84%')).toHaveClass('positive');
 
-    // Assert that the mocked relative time is displayed
     expect(screen.getByText('5 min ago')).toBeInTheDocument();
   });
 });

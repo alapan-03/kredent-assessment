@@ -24,15 +24,13 @@ describe('StockCard Toggle Functionality', () => {
     // Find the toggle button
     const toggleButton = screen.getByRole('button', { name: /FUT - CM/i });
 
-    // **View A (Initial State): FUT - CM**
-    // 3715.75 - 3712.20 = 3.55
+    //Initial State
     expect(toggleButton).toHaveTextContent('FUT - CM: 3.55');
 
     // Simulate a user click on the toggle button
     fireEvent.click(toggleButton);
 
-    // **View B (After Click): CM - FUT**
-    // 3712.20 - 3715.75 = -3.55
+    //After Click
     expect(screen.getByRole('button')).toHaveTextContent('CM - FUT: -3.55');
 
     // Click again to ensure it toggles back

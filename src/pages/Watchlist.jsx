@@ -51,7 +51,7 @@ const Watchlist = () => {
     setTimeout(() => setSelectedStock(null), 300);
   };
 
-  // Memoized logic for filtering and sorting
+  // logic for filtering and sorting
   const filteredAndSortedStocks = useMemo(() => {
     let sortedStocks = [...stocks];
 
