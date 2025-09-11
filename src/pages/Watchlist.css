@@ -1,4 +1,4 @@
-/* src/pages/Watchlist.css */
+
 .watchlist-header {
   display: flex;
   justify-content: space-between;
@@ -38,15 +38,14 @@
 .stock-grid {
   display: grid;
   gap: 1.5rem;
-  /* Default to a responsive grid for smaller screens */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .full-width-container {
-  grid-column: 1 / -1; /* Make the error state span the full grid width */
+  grid-column: 1 / -1; 
 }
 
-/* On desktop screens (e.g., wider than 1200px), enforce 6 columns */
+
 @media (min-width: 1200px) {
   .stock-grid {
     grid-template-columns: repeat(6, 1fr);
