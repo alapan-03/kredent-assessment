@@ -20,7 +20,7 @@ First, make sure you have Node.js on your computer.
 
 Clone the repo:
 
-git clone 
+git clone https://github.com/alapan-03/kredent-assessment.git
 
 Go into the project folder:
 
