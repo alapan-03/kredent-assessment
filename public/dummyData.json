@@ -1,0 +1,59 @@
+
+[
+  {
+    "id": 1,
+    "tradingSymbol": "RELIANCE",
+    "capitalMarketLastTradedPrice": 2915.45,
+    "futuresLastTradedPrice": 2921.10,
+    "percentageChange": 0.84,
+    "lastUpdatedTimestamp": "2025-09-10T16:45:00Z"
+  },
+  {
+    "id": 2,
+    "tradingSymbol": "TCS",
+    "capitalMarketLastTradedPrice": 3712.20,
+    "futuresLastTradedPrice": 3715.75,
+    "percentageChange": -0.45,
+    "lastUpdatedTimestamp": "2025-09-10T16:48:30Z"
+  },
+  {
+    "id": 3,
+    "tradingSymbol": "HDFCBANK",
+    "capitalMarketLastTradedPrice": 1580.90,
+    "futuresLastTradedPrice": 1583.50,
+    "percentageChange": 1.25,
+    "lastUpdatedTimestamp": "2025-09-10T16:40:15Z"
+  },
+  {
+    "id": 4,
+    "tradingSymbol": "INFY",
+    "capitalMarketLastTradedPrice": 1450.75,
+    "futuresLastTradedPrice": 1452.00,
+    "percentageChange": -1.10,
+    "lastUpdatedTimestamp": "2025-09-10T16:49:00Z"
+  },
+  {
+    "id": 5,
+    "tradingSymbol": "ICICIBANK",
+    "capitalMarketLastTradedPrice": 998.50,
+    "futuresLastTradedPrice": 1001.00,
+    "percentageChange": 0.55,
+    "lastUpdatedTimestamp": "2025-09-08T12:20:00Z"
+  },
+  {
+    "id": 6,
+    "tradingSymbol": "BHARTIARTL",
+    "capitalMarketLastTradedPrice": 880.25,
+    "futuresLastTradedPrice": 881.90,
+    "percentageChange": 0.90,
+    "lastUpdatedTimestamp": "2025-09-10T16:50:00Z"
+  },
+  {
+    "id": 7,
+    "tradingSymbol": "SBIN",
+    "capitalMarketLastTradedPrice": 570.10,
+    "futuresLastTradedPrice": 571.50,
+    "percentageChange": -0.20,
+    "lastUpdatedTimestamp": "2025-09-10T16:35:00Z"
+  }
+]

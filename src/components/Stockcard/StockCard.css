@@ -1,0 +1,75 @@
+
+.stock-card {
+  background-color: var(--surface-dark);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.stock-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-symbol {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--primary-text);
+}
+
+.price-section p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: var(--secondary-text);
+}
+
+.price-value {
+  font-weight: 500;
+  color: var(--primary-text);
+}
+
+.percentage-change {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.positive { color: var(--positive-green); }
+.negative { color: var(--negative-red); }
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-color);
+}
+
+.last-updated {
+  font-size: 0.8rem;
+  color: var(--secondary-text);
+  margin: 0;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--primary-text);
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.2s;
+}
+
+.toggle-button:hover {
+  background-color: var(--accent-blue);
+  border-color: var(--accent-blue);
+}

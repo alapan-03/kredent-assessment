@@ -1,0 +1,29 @@
+/* src/components/SortMenu.css */
+.sort-menu-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-menu-container label {
+  color: var(--secondary-text);
+  font-size: 0.9rem;
+}
+
+.sort-menu-container select, .sort-direction-btn {
+  background-color: var(--surface-dark);
+  border: 1px solid var(--border-color);
+  color: var(--primary-text);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.sort-direction-btn {
+  cursor: pointer;
+  min-width: 80px;
+  transition: background-color 0.2s;
+}
+.sort-direction-btn:hover {
+    background-color: #333;
+}
